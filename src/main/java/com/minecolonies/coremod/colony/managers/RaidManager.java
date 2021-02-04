@@ -511,17 +511,17 @@ public class RaidManager implements IRaiderManager
             }
             else if (building.hasModule(LivingBuildingModule.class))
             {
-                // 39/43/47/51/55
+                // 29/33/37/41/45
                 minDist += building.getBuildingLevel() * 4;
             }
             else if (building instanceof BuildingTownHall)
             {
-                // 43/51/59/67/75
+                // 33/41/49/57/65
                 minDist += building.getBuildingLevel() * 8;
             }
             else
             {
-                // 37/39/41/43/45
+                // 27/29/31/33/35
                 minDist += building.getBuildingLevel() * 2;
             }
 
